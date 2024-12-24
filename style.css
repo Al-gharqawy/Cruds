@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: 80%;
+    margin: auto;
+    background: #890505;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header{
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  input{
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0px;
+    border: none;
+  }
+
+  .prices input{
+    width: 20%;
+  }
+  .total{
+    background-color: #bb2525;
+    padding: 7px;
+  }
+  .total::before{
+    content: 'total:';
+  }
+  button{
+    width: 100%;
+    background-color: #a79b9b;
+    padding: 8px 0px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+
+  }
+  .searchbytext{
+    display: flex;
+    justify-content: space-between;
+  }
+  .searchbytext input{
+    width: 45%;
+    background-color: rgb(133, 3, 255);
+    border-radius: 30px;
+    margin: 10px;
+    color: black;
+  }
+  #deleteAll{
+    margin: 10px 0px;
+  }
+  table{
+    width: 100%;
+    text-align: center;
+  }
+
+  @media (max-width : 800px) {
+
+    table{
+      width: 90%;
+    font-size: 10px;
+    }
+    .container{
+      width: 100%;
+    }
+    
+  }
